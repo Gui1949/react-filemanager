@@ -21,21 +21,21 @@ class FormDialog extends Component {
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-copy" fullWidth={true} maxWidth={'sm'}>
                 <form>
                     <DialogTitle id="form-dialog-copy">
-                        Copy files to <small style={{color: 'grey'}}>{ selectedPath.join('/') }</small>
+                        Copiar arquivos para <small style={{color: 'grey'}}>{ selectedPath.join('/') }</small>
                     </DialogTitle>
                     <DialogContent>
                         <FileListSublist />
                     </DialogContent>
                     <DialogActions>
                         <Button onClick={handleGoBack} color="primary" type="button" disabled={!canGoBack}>
-                            <KeyboardArrowLeftIcon /> Go back directory
+                            <KeyboardArrowLeftIcon /> Ir para diretório anterior
                         </Button>
 
                         <Button onClick={handleClose} color="primary" type="button">
-                            Cancel
+                            Cancelar
                         </Button>
                         <Button color="primary" onClick={(e) => handleSave(e, selectedFiles)} disabled={!canCopy} type="submit">
-                            Copy
+                            Copiar
                         </Button>
                     </DialogActions>
                 </form>

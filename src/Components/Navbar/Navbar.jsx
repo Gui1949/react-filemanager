@@ -88,7 +88,7 @@ function SearchAppBar(props) {
                 handleClickPath={handleClickPath} 
                 handleGoBack={handleGoBack}
                 canGoBack={canGoBack}
-                rootTitle="React Filemanager"
+                rootTitle="Gerenciador de Arquivos"
             />
           </Typography>
           <div className={classes.grow} />
@@ -98,7 +98,7 @@ function SearchAppBar(props) {
               <SearchIcon />
             </div>
             <InputBase
-              placeholder="Search…"
+              placeholder="Pesquisar..."
               value={props.value}
               onChange={props.handleChange}
               classes={{

@@ -15,7 +15,7 @@ function MoveAction(props) {
                 <WrapTextIcon />
             </ListItemIcon>
             <Typography variant="inherit">
-                Rename
+                Renomear
             </Typography>
         </MenuItem>        
     );

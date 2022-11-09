@@ -20,7 +20,7 @@ function CreateFolderAction(props) {
                 <CreateNewFolderIcon />
             </ListItemIcon>
             <Typography variant="inherit">
-                Create folder
+                Criar Pasta
             </Typography>
         </MenuItem>        
     );

@@ -15,7 +15,7 @@ function CopyAction(props) {
                 <FileCopyIcon />
             </ListItemIcon>
             <Typography variant="inherit">
-                Copy
+                Copiar
             </Typography>
         </MenuItem>        
     );

@@ -14,7 +14,7 @@ function OpenAction(props) {
                 <OpenInBrowserIcon />
             </ListItemIcon>
             <Typography variant="inherit">
-                Open
+                Abrir
             </Typography>
         </MenuItem>        
     );

@@ -15,7 +15,7 @@ function MoveAction(props) {
                 <HowToVoteIcon />
             </ListItemIcon>
             <Typography variant="inherit">
-                Move
+                Mover
             </Typography>
         </MenuItem>        
     );

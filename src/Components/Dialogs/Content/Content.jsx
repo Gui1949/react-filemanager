@@ -31,13 +31,13 @@ class FormDialog extends Component {
         return (
           <div style={{marginLeft:'1em'}}>
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-content" fullWidth={true} maxWidth={'sm'}>
-              <DialogTitle id="form-dialog-content">Viewing file </DialogTitle>
+              <DialogTitle id="form-dialog-content">Visualizando Arquivo </DialogTitle>
               <DialogContent>
                 <img src={this.props.blobUrl} alt="" style={{maxWidth: '100%'}}/>
               </DialogContent>
               <DialogActions>
                 <Button onClick={handleClose} color="primary" type="button">
-                  Close
+                  Fechar
                 </Button>
               </DialogActions>
             </Dialog>

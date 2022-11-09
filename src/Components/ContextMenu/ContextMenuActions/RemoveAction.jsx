@@ -14,7 +14,7 @@ function RemoveAction(props) {
                 <DeleteIcon />
             </ListItemIcon>
             <Typography variant="inherit">
-                Remove
+                Apagar
             </Typography>
         </MenuItem>        
     );

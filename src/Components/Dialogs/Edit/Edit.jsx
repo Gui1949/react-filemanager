@@ -49,7 +49,7 @@ class FormDialog extends Component {
         return (
           <div>
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-edit" fullWidth={true} maxWidth={'sm'}>
-              <DialogTitle id="form-dialog-edit">Editing file </DialogTitle>
+              <DialogTitle id="form-dialog-edit">Editar Arquivo </DialogTitle>
               <DialogContent>
                   <DialogContentText>
                     { this.state.loading ? 'Loading...' : textArea }
@@ -57,10 +57,10 @@ class FormDialog extends Component {
               </DialogContent>
               <DialogActions>
                 <Button onClick={handleClose} color="primary" type="button">
-                    Close
+                    Cancelar
                 </Button>
                 <Button color="primary" onClick={handleSave} type="submit">
-                    Update
+                    Salvar
                 </Button>
               </DialogActions>
             </Dialog>

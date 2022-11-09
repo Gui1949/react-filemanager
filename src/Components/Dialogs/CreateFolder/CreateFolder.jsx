@@ -16,16 +16,16 @@ class FormDialog extends Component {
         return (
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-create-folder" fullWidth={true} maxWidth={'sm'}>
                 <form>
-                  <DialogTitle id="form-dialog-create-folder">Create folder</DialogTitle>
+                  <DialogTitle id="form-dialog-create-folder">Criar pasta</DialogTitle>
                   <DialogContent>
                     <TextField autoFocus fullWidth margin="dense" label="Folder name" type="text" value={value} />
                   </DialogContent>
                   <DialogActions>
                     <Button onClick={handleClose} color="primary" type="button">
-                      Cancel
+                      Cancelar
                     </Button>
                     <Button color="primary" type="submit" onClick={handleSave}>
-                      Save
+                      Salvar
                     </Button>
                   </DialogActions>
                 </form>
