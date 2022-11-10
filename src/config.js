@@ -1,4 +1,5 @@
-const host = 'http://localhost:8000';
+ const host = 'https://helpdesk.medsystems.com.br:3000';
+//const host = 'http://localhost:3000';
 
 export default {
     url_list: `${host}/filemanager/list`,
