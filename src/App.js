@@ -20,12 +20,19 @@ const theme = createMuiTheme({
 });
 
 class App extends Component {
+    
 
     componentDidMount() {
         this.props.init();
     };
 
     render() {
+        let token = localStorage.getItem("token")
+
+        if(!token){
+            window.location.href = '/dashboard'
+        }
+
         return (
             <MaterialUI theme={theme}>
                 <div onClick={this.props.handleHideContextMenu} onContextMenu={this.props.handleHideContextMenu}>

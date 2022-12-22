@@ -130,6 +130,7 @@ export function upload(path, fileList, formData = new FormData()) {
     return fetch(config.url_upload, {
         method: 'POST',
         body: formData, 
+        timeout: 99999999999999,
         headers: {
             // a workaround for node connector, passing the path by header
             path: path

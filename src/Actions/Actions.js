@@ -14,7 +14,7 @@ export const uploadFiles = (fileList) => (dispatch, getState) => {
         dispatch(setFileUploadProgress(100));
         setTimeout(f => {
             dispatch(resetFileUploader());
-        }, 300);
+        }, 3000);
         dispatch(refreshFileList());
     }).catch(r => {
         dispatch({
